@@ -1,0 +1,7 @@
+name = "CAGPU"
+uuid = "d2a87063-6fd6-4549-b1ba-3931a695e8ae"
+authors = ["Flavien Loiseau <flavien.loiseau@ens-paris-saclay.fr>"]
+version = "0.1.0"
+
+[deps]
+OpenCL = "08131aa3-fb12-5dee-8b74-c09406e224a2"

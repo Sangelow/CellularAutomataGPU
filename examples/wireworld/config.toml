@@ -1,0 +1,14 @@
+[PARAMETERS]
+N_STATES = 4
+NT = 1000
+W = 128
+H = 128
+
+[INITIALISATION]
+TYPE = "rects" # "random" "rects"
+# A rect is [oi, oj, w, h] (1-index for i and j)
+STATE_RECTS  = [
+        [3, [  1,  64, 128,   1]],
+        [1, [ 64,  64,   1,   1]],
+        [2, [ 65,  64,   1,   1]]
+    ]

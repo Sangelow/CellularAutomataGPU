@@ -1,0 +1,9 @@
+[PARAMETERS]
+N_STATES = 2
+NT = 1000
+W = 1024
+H = 1024
+
+[INITIALISATION]
+TYPE = "random" # "random"
+PROP_INITIAL_ALIVE = 0.5
