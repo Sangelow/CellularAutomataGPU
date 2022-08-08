@@ -22,10 +22,11 @@ using OpenCL
 #           - Simulation of breakdown in air using cellular automata with streamer to leader transition
 #               - Difficulties: need to store additional parameters in buffer
 #               - DOI: https://10.1088/0022-3727/34/6/315
-#       - Fire spread (close to wireworld ???)
+#       - Fire spread
+#           - Stochastic
 #           - Google: https://www.google.com/search?hl=en&q=cellular%20automata%20spread%20of%20fire
-#           - Simple model: http://nifty.stanford.edu/2007/shiflet-fire/_files/Spreading%20of%20Fire.pdf
-#           - Other ressources: http://cormas.cirad.fr/en/applica/fireautomata.htm
+#           - TODO (to finish) simple models : http://nifty.stanford.edu/2007/shiflet-fire/_files/Spreading%20of%20Fire.pdf
+#           - More complex models: http://cormas.cirad.fr/en/applica/fireautomata.htm
 #       - Falling sand
 #           - End of: https://www2.econ.iastate.edu/tesfatsi/CellularAutomataIntro.LT.pdf
 #       - Percolation
@@ -38,6 +39,8 @@ using OpenCL
 #           - Course (13min): https://www.youtube.com/watch?v=MKp495ECbOA
 #           - https://doi.org/10.1016/0378-4371(95)00442-4
 #           - https://doi.org/10.1016/S0378-4371(98)00536-6
+#       - Predator Prey
+#           - https://www.rubinghscience.org/evol/spirals1.html
 #   - Other NOT automata
 #       - Schelling's segregation model
 #           - Reason: each thread should update the same array =S
