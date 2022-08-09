@@ -1,0 +1,21 @@
+[PARAMETERS]
+N_STATES = 3 # 0: EMPTY; 1: TREE; 2: BURNING
+NT = 1000
+W = 1024
+H = 1024
+SEED = 1089123
+
+[INITIALISATION]
+TYPE = "rects" # "random" "rects"
+# A rect is [oi, oj, w, h] (1-index for i and j)
+# A full forest (to use with lightings)
+STATE_RECTS  = [
+        [1, [  1,   1, 1024, 1024]],
+    ]
+
+# Forest with fire at the center
+# STATE_RECTS  = [
+#         [0, [  1,   1, 128, 128]],
+#         [1, [  2,   2, 126, 126]],
+#         [2, [ 63,  63,  2,    2]]
+#     ]
